@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "importHelpers": true,
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    // いずれ消す
+    "skipLibCheck": true,
+
+    "useDefineForClassFields": true,
+    "isolatedModules": true,
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "module": "esnext",
+    "outDir": "./module",
+    "strictFunctionTypes": false,
+    "noEmit": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext",
+    "lib": ["esnext"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/__tests__/*"]
+}
